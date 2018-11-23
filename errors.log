@@ -1,0 +1,8 @@
+
+2018-11-23 12:24:44: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE email = NULL AND password = 'd41d8cd98f00b204e9800998ecf8427e'' at line 1
+2018-11-23 12:25:38: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE email = 'abc@gmail.com' AND password = '0192023a7bbd73250516f069df18b500'' at line 1
+2018-11-23 12:26:29: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE email = 'abc@gmail.com' AND password = '0192023a7bbd73250516f069df18b500'' at line 1
+2018-11-23 12:27:01: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'device_id' cannot be null
+2018-11-23 12:30:02: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+2018-11-23 12:31:26: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_at' in 'field list'
+2018-11-23 12:31:53: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mobile' cannot be null

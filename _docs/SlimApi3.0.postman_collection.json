@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "7ceab15b-4205-4cdd-9b11-f15541b2a4f6",
+		"name": "SlimApi3.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/tutorials/slim3.0-for-api/api/postSignup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Ajay",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "abcd@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin123",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "987654321",
+							"type": "text"
+						},
+						{
+							"key": "device_id",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tutorials/slim3.0-for-api/api/postSignup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tutorials",
+						"slim3.0-for-api",
+						"api",
+						"postSignup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/tutorials/slim3.0-for-api/api/getProfile/postLogin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "abc@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin123",
+							"type": "text"
+						},
+						{
+							"key": "device_id",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tutorials/slim3.0-for-api/api/postLogin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tutorials",
+						"slim3.0-for-api",
+						"api",
+						"postLogin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/tutorials/slim3.0-for-api/api/getProfile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "TOKEN",
+						"value": "b8720a6de218dc6f8fa2c2d000782ca2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/tutorials/slim3.0-for-api/api/getProfile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tutorials",
+						"slim3.0-for-api",
+						"api",
+						"getProfile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
