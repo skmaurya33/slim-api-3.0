@@ -41,14 +41,14 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost/tutorials/slim3.0-for-api/api/postSignup",
+					"raw": "http://localhost/tutorials/slim-api-3.0/api/postSignup",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"path": [
 						"tutorials",
-						"slim3.0-for-api",
+						"slim-api-3.0",
 						"api",
 						"postSignup"
 					]
@@ -82,14 +82,14 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost/tutorials/slim3.0-for-api/api/postLogin",
+					"raw": "http://localhost/tutorials/slim-api-3.0/api/postLogin",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"path": [
 						"tutorials",
-						"slim3.0-for-api",
+						"slim-api-3.0",
 						"api",
 						"postLogin"
 					]
@@ -104,7 +104,7 @@
 				"header": [
 					{
 						"key": "TOKEN",
-						"value": "b8720a6de218dc6f8fa2c2d000782ca2",
+						"value": "22cddb7dba0f9aad99cd954f69a338c7",
 						"type": "text"
 					}
 				],
@@ -113,14 +113,14 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost/tutorials/slim3.0-for-api/api/getProfile",
+					"raw": "http://localhost/tutorials/slim-api-3.0/api/getProfile",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"path": [
 						"tutorials",
-						"slim3.0-for-api",
+						"slim-api-3.0",
 						"api",
 						"getProfile"
 					]

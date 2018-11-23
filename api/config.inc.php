@@ -10,16 +10,16 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     $host_username = 'root';
     $host_password = '';
     $host_dbname = 'slimapi';
-    $base_url = 'http://localhost/tutorials/slim3.0-for-api/';
-    $base_path = 'D:\xampp\htdocs\tutorials\slim3.0-for-api/';
+    $base_url = 'http://localhost/tutorials/slim-api-3.0/';
+    $base_path = 'D:\xampp\htdocs\tutorials\slim-api-3.0/';
 } else {
     //put here server details
     $host_name = 'localhost';
     $host_username = 'root';
     $host_password = '';
     $host_dbname = 'slimapi';
-    $base_url = 'http://localhost/tutorials/slim3.0-for-api/';
-    $base_path = 'D:\xampp\htdocs\tutorials\slim3.0-for-api/';
+    $base_url = 'http://localhost/tutorials/slim-api-3.0/';
+    $base_path = 'D:\xampp\htdocs\tutorials\slim-api-3.0/';
 }
 
 define('MYSQL_HOSTNAME', $host_name);
@@ -31,8 +31,8 @@ define('BASE_URL', $base_url);
 define('BASE_PATH', $base_path);
 define('API_URL', BASE_URL . 'api/');
 define('API_PATH', BASE_PATH . 'api/');
-define('UPLOADS_URL', BASE_URL . 'uploads/');
-define('UPLOADS_PATH', BASE_PATH . 'uploads/');
+define('UPLOADS_URL', BASE_URL . 'public/uploads/');
+define('UPLOADS_PATH', BASE_PATH . 'public/uploads/');
 
 define('STATUS_OK', 200);
 define('STATUS_BAD_REQUEST', 400);
